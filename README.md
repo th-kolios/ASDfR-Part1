@@ -1,10 +1,8 @@
-
-
-
-
 source /opt/ros/jazzy/setup.bash
 
 source ~/assignment1_wk/install/setup.bash
+
+colcon build --packages-select avg_brightness_node
 
 source install/setup.bash
 
